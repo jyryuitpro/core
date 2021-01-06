@@ -39,10 +39,10 @@ public class OrderServiceTest {
     // 사용하지 말자!
     // 애플리케이션의 실제 코드와 관계 없는 테스트 코드에서는 사용 가능
     // 스프링 설정을 목적으로 하는 @Configuration 같은 곳에서만 특별한 용도로 사용 가능
-    @Test
-    void fieldIngectionTest() {
-        OrderServiceImpl orderService = new OrderServiceImpl();
-        // java.lang.NullPointerException
-        orderService.createOrder(1L, "itemA", 10000);
-    }
+//    @Test
+//    void fieldIngectionTest() {
+//        OrderServiceImpl orderService = new OrderServiceImpl();
+//        // java.lang.NullPointerException
+//        orderService.createOrder(1L, "itemA", 10000);
+//    }
 }
